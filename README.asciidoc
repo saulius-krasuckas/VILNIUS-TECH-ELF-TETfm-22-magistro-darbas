@@ -14,9 +14,9 @@ Darbo konsultantas: Arūnas Šaltis, VILNIUS TECH
 
 Repozitorija skirta kurti ir saugoti baigiamojo darbo
 
-- dokumentams,
-- tyrimo įrankiams
-- ir rezultatams.
+* dokumentams,
+* tyrimo įrankiams
+* ir rezultatams.
 
 === Licencija
 
