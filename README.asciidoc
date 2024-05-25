@@ -10,6 +10,10 @@ VILNIUS TECH Elektronikos fakultetas, grupė TETfm-22
 Darbo vadovas: Arūnas Statkus, VILNIUS TECH +
 Darbo konsultantas: Arūnas Šaltis, VILNIUS TECH
 
-=== `TODO` Section
+=== Pristatymas
 
-`TODO` repo introduction
+Repozitorija skirta kurti ir saugoti baigiamojo darbo
+
+- dokumentams,
+- tyrimo įrankiams
+- ir rezultatams.
