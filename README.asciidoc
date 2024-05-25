@@ -20,7 +20,7 @@ Repozitorija skirta kurti ir saugoti baigiamojo darbo
 
 === Licencija
 
-Darbas pateikiamas atviru pavidalu, pritaikius link:LICENSE.md[Blue Oak Model License] (versija 1.0.0) –
+Darbas pateikiamas atviru pavidalu, pritaikius link:LICENSE.asciidoc[Blue Oak Model License] (versija 1.0.0) –
 https://writing.kemitchell.com/2019/03/09/Deprecation-Notice.html[šiuolaikinį MIT licencijos pakaitalą].
 
 Tikimasi, kad ją skaityti bus patogu tiek IT pasaulio darbuotojams, tiek ir https://writing.kemitchell.com/living/Types-of-Lawyers.html#transactional-lawyers[intelektinės nuosavybės (IN) teisės specialistams], dirbantiems šiose srityse:
