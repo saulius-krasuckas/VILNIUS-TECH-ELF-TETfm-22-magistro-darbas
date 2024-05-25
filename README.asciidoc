@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: BlueOak-1.0.0
 // SPDX-FileCopyrightText: 2023 Saulius Krasuckas <saulius2_at_ar-fi_point_lt> | sskras
+// SPDX-FileCopyrightText: 2024 Saulius Krasuckas <saulius.krasuckas_at_stud_vilniustech_lt>
 
 = Multipath TCP tyrimas duomenų centruose
 
 Sauliaus Krasucko baigiamasis magistro darbas. VILNIUS TECH Elektronikos fakultetas, grupė TETfm-22
 
-Darbo vadovas: Arūnas Statkus, VILNIUS TECH
+Darbo vadovas: Arūnas Statkus, VILNIUS TECH +
 Darbo konsultantas: Arūnas Šaltis, VILNIUS TECH
 
 === `TODO` Section
