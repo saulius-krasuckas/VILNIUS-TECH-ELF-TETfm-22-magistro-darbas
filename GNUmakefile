@@ -42,4 +42,4 @@ desc:
 
 .PHONY: tex
 tex:
-	@pdflatex tex/main.tex
+	@pdflatex --output-directory=tex/out tex/main.tex
