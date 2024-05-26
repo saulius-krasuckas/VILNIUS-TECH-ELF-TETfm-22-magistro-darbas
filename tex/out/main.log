@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  26 MAY 2024 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  26 MAY 2024 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,11 +6,10 @@ entering extended mode
 (./tex/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>)
-*
 ! Emergency stop.
-<*> 
-    
-End of file on the terminal!
+<*> tex/main.tex
+                
+*** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
