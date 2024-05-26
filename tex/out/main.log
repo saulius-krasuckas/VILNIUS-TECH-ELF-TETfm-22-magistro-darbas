@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  26 MAY 2024 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  26 MAY 2024 11:49
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **tex/main.tex
 (./tex/main.tex
@@ -23,14 +24,14 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-! I can't find file `main.aux'.
+./tex/main.tex:5: I can't find file `main.aux'.
 \enddocument ...keatletter \@@input \jobname .aux 
                                                   \fi \UseOneTimeHook {enddo...
 l.5 \end{document}
                   
 (Press Enter to retry, or Control-D to exit)
 Please type another input file name
-! Emergency stop.
+./tex/main.tex:5: Emergency stop.
 \enddocument ...keatletter \@@input \jobname .aux 
                                                   \fi \UseOneTimeHook {enddo...
 l.5 \end{document}
@@ -46,4 +47,4 @@ Here is how much of TeX's memory you used:
  512287 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,0n,38p,141b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+./tex/main.tex:5:  ==> Fatal error occurred, no output PDF file produced!
