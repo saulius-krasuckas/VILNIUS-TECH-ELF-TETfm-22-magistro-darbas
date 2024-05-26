@@ -39,3 +39,7 @@ all:
 
 desc:
 	@echo "${A}"
+
+.PHONY: tex
+tex:
+	@pdflatex tex/main.tex
