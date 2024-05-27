@@ -7,6 +7,10 @@ A = An introductory description of this Makefile (a TODO).
 all:
 	@echo "${A}"
 	@echo
+	@echo "Target '?' lists other targets."
+
+?: desc
+	@echo
 	@echo "Available targets:"
 	@
 	@# Via: https://stackoverflow.com/questions/4219255/how-do-you-get-the-list-of-targets-in-a-makefile/26340367#26340367
@@ -29,7 +33,7 @@ all:
 	          GO=0          # Stop processing   \
 	      }                                     \
 	                                            \
-	      GO && ! /^(#|\.|$@:)/                 \
+	      GO && ! /^(#|\.|\$@:)/                \
 	      {                                     \
 	          printf "    " # Indent            \
 	          print $$1     # Print target name \
