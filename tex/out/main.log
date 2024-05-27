@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  27 MAY 2024 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  27 MAY 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -294,12 +294,12 @@ LaTeX Font Info:    ... okay on input line 57.
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -317,16 +317,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1698 strings out of 476091
- 27233 string characters out of 5794081
- 1863330 words of memory out of 5000000
- 22118 multiletter control sequences out of 15000+600000
- 513959 words of font info for 33 fonts, out of 8000000 for 9000
+ 1700 strings out of 476091
+ 27261 string characters out of 5794081
+ 1868330 words of memory out of 5000000
+ 22119 multiletter control sequences out of 15000+600000
+ 514264 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,5n,62p,304b,113s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-l7x.enc}</usr/share/texmf/fonts/type1
-/public/lm/lmr10.pfb>
-Output written on tex/out/main.pdf (2 pages, 36093 bytes).
+/public/lm/lmr12.pfb>
+Output written on tex/out/main.pdf (2 pages, 33732 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
