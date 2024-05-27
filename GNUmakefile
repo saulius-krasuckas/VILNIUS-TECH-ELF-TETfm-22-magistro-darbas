@@ -4,10 +4,12 @@
 A = An introductory description of this Makefile (a TODO).
 
 
-all:
-	@echo "${A}"
+all: desc
 	@echo
 	@echo "Target '?' lists other targets."
+
+desc:
+	@echo "${A}"
 
 ?: desc
 	@echo
@@ -40,9 +42,6 @@ all:
 	      }                                     \
 	'                                           \
 	| sort
-
-desc:
-	@echo "${A}"
 
 .PHONY: tex
 tex:
