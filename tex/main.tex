@@ -43,6 +43,7 @@
 
 \usepackage{geometry}                  % paraščių ir kitų lapo parametrų nustatymai
 \usepackage{microtype}                 % optimizuojami atstumai tarp raidžių žodyje ir tarp žodžių eilutėje
+\usepackage{printlen}
 
 \geometry{                             % paketo "geometry" nustatymai pagal VILNIUS TECH metodiką:
   a4paper,                             % - lapo dydis
@@ -76,10 +77,12 @@
 \begin{titlepage}
 \centering
 
+   %\printlength{\baselineskip}        % sugeneruoja: 20.88004pt
+
 % Small Caps: visos raidės virsta didžiosiomis, tačiau pradinės mažosios tampa šiek tiek mažesnėmis nei pradinės didžiosios
 {\scshape
-    {\Large Vilniaus Gedimino Technikos Universitetas}    \\[0.063\baselineskip]
-    {\large Elektronikos Fakultetas}                      \\[0.007\baselineskip]
+    {\Large Vilniaus Gedimino Technikos Universitetas}    \\[1.30pt]
+    {\large Elektronikos Fakultetas}                      \\[0.20pt]
     {\large Kompiuterijos ir Ryšių Technologijų Katedra}
 }
 
@@ -87,7 +90,7 @@
 
     {\large Saulius Krasuckas}                            \\[4.5ex]
 
-    {\large{\bfseries{MPTCP TYRIMAS DUOMENŲ CENTRUOSE}}}  \\[-0.9ex]
+    {\large{\bfseries{MPTCP TYRIMAS DUOMENŲ CENTRUOSE}}}  \\[-5.0pt]
     {\large{EVALUATION OF MULTIPATH TCP PROTOCOL
                 USE IN DATA CENTER NETWORKS}}
 
