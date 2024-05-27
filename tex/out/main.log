@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  27 MAY 2024 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  27 MAY 2024 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -149,16 +149,16 @@ LaTeX Font Info:    ... okay on input line 64.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] [2] [3]
 (tex/out/main.aux) ) 
 Here is how much of TeX's memory you used:
- 1523 strings out of 476091
- 24722 string characters out of 5794081
- 1867330 words of memory out of 5000000
- 21949 multiletter control sequences out of 15000+600000
+ 1519 strings out of 476091
+ 24694 string characters out of 5794081
+ 1868330 words of memory out of 5000000
+ 21945 multiletter control sequences out of 15000+600000
  516071 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,62p,213b,116s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,62p,213b,128s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tex/out/main.pdf (4 pages, 21932 bytes).
+Output written on tex/out/main.pdf (4 pages, 20549 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
