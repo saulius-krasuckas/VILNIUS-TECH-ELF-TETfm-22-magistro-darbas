@@ -5,6 +5,8 @@ A = An introductory description of this Makefile (a TODO).
 
 
 all: desc
+
+intro: desc
 	@echo
 	@echo "Target '?' lists other targets."
 
