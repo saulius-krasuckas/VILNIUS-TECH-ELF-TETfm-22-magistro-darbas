@@ -4,7 +4,7 @@
 A = An introductory description of this Makefile (a TODO).
 
 
-all: desc
+all: tex
 
 intro: desc
 	@echo
