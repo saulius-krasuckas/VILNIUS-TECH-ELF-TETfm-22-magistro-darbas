@@ -48,7 +48,7 @@
      left = 30 mm,                     % - paraštės
     right = 10 mm,                     %   .
       top = 20 mm,                     %   .
-   bottom = 20 mm                      %   .
+   bottom = 20 mm,                     %   .
 }                                      % Via: https://vilniustech.lt/files/5184/259/12/13_0/Baigiamųjų darbų metodikos nurodymai.pdf#page=84
 
 
@@ -65,6 +65,13 @@
 
 % ------------------------------------------------------------------ VIRŠELIS --
 
+\newgeometry{
+     left = 10 mm,                     % Suvienodinta su "right" pilnam antraštinių lapų sucentravimui
+    right = 10 mm,                     %   .
+      top = 20 mm,                     %   .
+   bottom = 20 mm,                     %   .
+}
+
 \begin{titlepage}
 \centering
 
@@ -73,6 +80,8 @@
 \Large\scshape Vilniaus Gedimino Technikos Universitetas
 
 \end{titlepage}
+
+\restoregeometry                       % Grąžinta pradinė, universiteto rekomenduojama geometrija
 
   \blindtext[10]                       % Dešimt "Lorem Ipsum" pastraipų, kad užimtų daugiau nei vieną puslapį
 \end{document}
