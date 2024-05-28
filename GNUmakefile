@@ -84,3 +84,13 @@ tex: herbas
 
 count-tex:
 	@texcount -char tex/main.tex
+
+.ONESHELL:
+
+count-pdf:
+	@\
+	read REPLY <<EOF
+	$$(dd if=tex/out/main.pdf | pdftotext - -enc UTF-8 - | wc -m)
+	EOF
+	echo
+	echo "Chars found in .pdf: $${REPLY}"
