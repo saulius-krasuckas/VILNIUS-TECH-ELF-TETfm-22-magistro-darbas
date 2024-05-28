@@ -71,8 +71,8 @@ tex: herbas
 	@#pdflatex --halt-on-error
 	@for N in 1 2; do                                               \
 	 pdflatex --file-line-error --interaction=nonstopmode --output-directory=tex/out tex/main.tex; \
+	    : Via: https://tex.stackexchange.com/a/159354/43883       ; \
 	done
 	: Via: https://tex.stackexchange.com/questions/107967/need-to-typeset-twice-for-correct-compile/107969#107969
-	@# Via: https://tex.stackexchange.com/questions/159347/pdflatex-cant-find-aux-file/159354#159354
 	@echo
 	@git status --short
