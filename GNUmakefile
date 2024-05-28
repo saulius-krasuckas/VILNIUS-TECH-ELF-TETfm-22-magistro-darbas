@@ -48,7 +48,9 @@ desc:
 	'                                           \
 	| sort
 
-herbas:
+herbas: tex/imgs/Herbas.png
+
+tex/imgs/Herbas.png:
 	@ \
 	cd tex/imgs                                                  && \
 	curl -s ${HERBO}                                                \
