@@ -46,6 +46,7 @@
  \usepackage{printlen}                 % tiksliam tarpų tarp eilučių pamatavimui
  \usepackage{graphicx}                 % grafinių failų įterpimas ir kiti nustatymai
  \usepackage{indentfirst}              % atitraukiama pirmoji naujo skyriaus eilutė
+ \usepackage{titlesec}                 % leidžia keisti skyriaus pavadinimo stilių
 
 
 \geometry{                             % paketo "geometry" nustatymai pagal VILNIUS TECH metodiką:
@@ -64,6 +65,8 @@
  \setlength{\parindent}{20mm}          % įtraukos dydis (7..20 mm)
                                        % Via: ---"---
                                        % Via: https://www.overleaf.com/learn/latex/Articles/How_to_change_paragraph_spacing_in_LaTeX#.5Cparindent_.28TeX_primitive.29
+ \titlelabel{\thetitle.\hspace{2mm}}   % dedamas taškas po skyriaus numeriu tekste,
+                                       % taip pat sumažinamas tarpelis nuo \quad (1em) iki 2mm
 
 % ------------------------------------------------------------------------------
 %  DOKUMENTO PRADŽIA
@@ -137,6 +140,7 @@
 
    %\printlength{\baselineskip}        % sugeneruoja: 20.88004pt
    %\printlength{\parindent}           % sugeneruoja: 17.62482pt
+   %\printlength{\quad}                % sugeneruoja: 01em
 
     \blindtext                         % Santrauka iš "Lorem Ipsum"
     \par                               % Nauja pastraipa
