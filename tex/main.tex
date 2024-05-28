@@ -44,6 +44,7 @@
 \usepackage{geometry}                  % paraščių ir kitų lapo parametrų nustatymai
 \usepackage{microtype}                 % optimizuojami atstumai tarp raidžių žodyje ir tarp žodžių eilutėje
 \usepackage{printlen}
+\usepackage{graphicx}                  % grafinių failų įterpimas ir kiti nustatymai
 
 \geometry{                             % paketo "geometry" nustatymai pagal VILNIUS TECH metodiką:
   a4paper,                             % - lapo dydis
@@ -57,6 +58,7 @@
 % PAPILDOMI PAKETAI IR NUSTATYMAI ----------------------------------------------
 
 \linespread{1.44}                      % nustatomas 1,5 dydžio tarpas tarp eilučių pagal Microsoft Word
+\graphicspath{{tex/imgs}}              % nustatome kelią iki paveikslėlių katalogo
 
 
 % ------------------------------------------------------------------------------
@@ -76,6 +78,9 @@
 
 \begin{titlepage}
 \centering
+
+    \vspace*{-9.5pt}
+    \includegraphics[scale = 0.105]{Herbas.png}           \\[3.9pt]
 
    %\printlength{\baselineskip}        % sugeneruoja: 20.88004pt
 
