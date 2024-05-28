@@ -49,9 +49,19 @@ desc:
 	| sort
 
 herbas:
-	@\
+	@ \
 	cd tex/imgs                                                  && \
-	curl -s ${HERBO} | awk '/Herbas.png/ {sub(/^.*https:/, "https:"); sub(/Herbas.png.*/, "Herbas.png"); print}' | xargs curl -O
+	curl -s ${HERBO}                                                \
+	| awk                                                           \
+	'                                           \
+	    /Herbas.png/                            \
+	    {                                       \
+	        sub(/^.*https:/, "https:")        # \
+	        sub(/Herbas.png.*/, "Herbas.png") # \
+	        print                               \
+	    }                                       \
+	'                                           \
+	| xargs curl -O
 
 .PHONY: tex
 tex:
