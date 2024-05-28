@@ -45,6 +45,13 @@ desc:
 	'                                           \
 	| sort
 
+herbas:
+	@\
+	cd tex/imgs                                                  && \
+	curl -s https://vilniustech.lt/universitetas/universiteto-stilius/322464 | awk '/Herbas.png/ {sub(/^.*https:/, "https:"); sub(/Herbas.png.*/, "Herbas.png"); print}' | xargs curl -O
+
 .PHONY: tex
 tex:
+	#pdflatex --halt-on-error
 	@pdflatex --file-line-error --interaction=nonstopmode --output-directory=tex/out tex/main.tex
+	# Via: https://tex.stackexchange.com/questions/159347/pdflatex-cant-find-aux-file/159354#159354
