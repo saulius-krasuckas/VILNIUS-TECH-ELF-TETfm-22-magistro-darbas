@@ -3,4 +3,5 @@
 \contentsline {section}{Lentelių sąrašas}{3}{}%
 \contentsline {section}{Santrumpos}{4}{}%
 \contentsline {section}{\numberline {1}Įvadas}{5}{}%
-\contentsline {section}{\numberline {2}Bandomasis skyrius}{6}{}%
+\contentsline {section}{\numberline {2}Literatūros apžvalga}{6}{}%
+\contentsline {section}{\numberline {3}Bandomasis skyrius}{7}{}%
