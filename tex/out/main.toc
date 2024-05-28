@@ -1,4 +1,5 @@
 \babel@toc {lithuanian}{}\relax 
-\contentsline {section}{Santrauka}{2}{}%
-\contentsline {section}{\numberline {1}Bandomasis skyrius}{3}{}%
-\contentsline {section}{Bandomasis}{3}{}%
+\contentsline {section}{Paveikslų sąrašas}{2}{}%
+\contentsline {section}{Santrauka}{3}{}%
+\contentsline {section}{\numberline {1}Bandomasis skyrius}{4}{}%
+\contentsline {section}{Bandomasis}{4}{}%
