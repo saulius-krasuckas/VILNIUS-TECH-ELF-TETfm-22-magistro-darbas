@@ -83,7 +83,7 @@ tex: herbas
 	git status --short                                            ; \
 
 count-tex:
-	@texcount -char tex/main.tex
+	@texcount -char -stat tex/main.tex
 
 count-pdf:
 	@\
