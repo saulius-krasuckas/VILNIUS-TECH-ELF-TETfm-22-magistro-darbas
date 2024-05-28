@@ -43,7 +43,7 @@
 
  \usepackage{geometry}                 % paraščių ir kitų lapo parametrų nustatymai
  \usepackage{microtype}                % optimizuojami atstumai tarp raidžių žodyje ir tarp žodžių eilutėje
-%\usepackage{printlen}                 % tiksliam tarpų tarp eilučių pamatavimui
+ \usepackage{printlen}                 % tiksliam tarpų tarp eilučių pamatavimui
  \usepackage{graphicx}                 % grafinių failų įterpimas ir kiti nustatymai
 
 
@@ -82,8 +82,6 @@
 
     \vspace*{-9.5pt}
     \includegraphics[scale = 0.105]{Herbas.png}           \\[3.9pt]
-
-   %\printlength{\baselineskip}        % sugeneruoja: 20.88004pt
 
 % Small Caps: visos raidės virsta didžiosiomis, tačiau pradinės mažosios tampa šiek tiek mažesnėmis nei pradinės didžiosios
 {\scshape
@@ -132,6 +130,10 @@
 
 \section*{Santrauka}
 \addcontentsline{toc}{section}{Santrauka}
+
+
+   %\printlength{\baselineskip}        % sugeneruoja: 20.88004pt
+   %\printlength{\parindent}           % sugeneruoja: 17.62482pt
 
     \blindtext                         % Santrauka iš "Lorem Ipsum"
 
