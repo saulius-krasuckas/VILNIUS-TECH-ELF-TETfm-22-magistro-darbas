@@ -6,3 +6,4 @@
 \contentsline {section}{\numberline {4}Teorinių ir eksperimentinių rezultatų palyginimas}{11}{}%
 \contentsline {section}{Išvados ir pasiūlymai}{12}{}%
 \contentsline {section}{Literatūros sąrašas}{13}{}%
+\contentsline {section}{PRIEDAI}{14}{}%
