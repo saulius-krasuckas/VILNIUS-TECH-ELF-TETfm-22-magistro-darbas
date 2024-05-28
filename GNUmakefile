@@ -4,6 +4,9 @@
 A = Magistro baigiamasis darbas. Galutinio dokumento generavimas .pdf formatu.
 
 
+    HERBO := https://vilniustech.lt/universitetas/universiteto-stilius/322464
+
+
 all: tex
 
 intro: desc
@@ -48,7 +51,7 @@ desc:
 herbas:
 	@\
 	cd tex/imgs                                                  && \
-	curl -s https://vilniustech.lt/universitetas/universiteto-stilius/322464 | awk '/Herbas.png/ {sub(/^.*https:/, "https:"); sub(/Herbas.png.*/, "Herbas.png"); print}' | xargs curl -O
+	curl -s ${HERBO} | awk '/Herbas.png/ {sub(/^.*https:/, "https:"); sub(/Herbas.png.*/, "Herbas.png"); print}' | xargs curl -O
 
 .PHONY: tex
 tex:
