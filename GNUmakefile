@@ -69,7 +69,8 @@ tex/imgs/Herbas.png:
 .PHONY: tex
 tex: herbas
 	@#pdflatex --halt-on-error
-	@for N in 1 2; do                                               \
+	@ \
+	for N in 1 2; do                                                \
 	    pdflatex                                                    \
 	        --file-line-error                                       \
 	        --interaction=nonstopmode                               \
@@ -77,6 +78,7 @@ tex: herbas
 	        tex/main.tex                                          ; \
 	    : Via: https://tex.stackexchange.com/a/159354/43883       ; \
 	done                                                          ; \
-	: Via: https://tex.stackexchange.com/questions/107967/need-to-typeset-twice-for-correct-compile/107969#107969
-	@echo
-	@git status --short
+	: Via: https://tex.stackexchange.com/a/107969/43883           ; \
+	echo                                                          ; \
+	git status --short                                            ; \
+
