@@ -1,9 +1,9 @@
 \babel@toc {lithuanian}{}\relax 
-\contentsline {section}{Įvadas}{5}{}%
-\contentsline {section}{\numberline {1}Literatūros apžvalga}{6}{}%
-\contentsline {section}{\numberline {2}Teoriniai tyrimai}{7}{}%
-\contentsline {section}{\numberline {3}Eksperimentiniai tyrimai}{10}{}%
-\contentsline {section}{\numberline {4}Teorinių ir eksperimentinių rezultatų palyginimas}{11}{}%
-\contentsline {section}{Išvados ir pasiūlymai}{12}{}%
-\contentsline {section}{Literatūros sąrašas}{13}{}%
+\contentsline {section}{ĮVADAS}{5}{}%
+\contentsline {section}{\numberline {1}LITERATŪROS APŽVALGA}{6}{}%
+\contentsline {section}{\numberline {2}TEORINIAI TYRIMAI}{7}{}%
+\contentsline {section}{\numberline {3}EKSPERIMENTINIAI TYRIMAI}{10}{}%
+\contentsline {section}{\numberline {4}TEORINIŲ IR EKSPERIMENTINIŲ REZULTATŲ PALYGINIMAS}{11}{}%
+\contentsline {section}{IŠVADOS IR PASIŪLYMAI}{12}{}%
+\contentsline {section}{LITERATŪROS SĄRAŠAS}{13}{}%
 \contentsline {section}{PRIEDAI}{14}{}%
