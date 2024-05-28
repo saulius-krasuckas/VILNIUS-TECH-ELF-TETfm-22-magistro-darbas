@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  29 MAY 2024 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  29 MAY 2024 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,16 +319,16 @@ Package pdftex.def Info: tex/imgs/Herbas.png  used on input line 90.
  [1] [2] [3] [4]
 
 Package blindtext Warning: lithuanian not defined, using English instead.
-(blindtext)                 on input line 218.
+(blindtext)                 on input line 219.
 
 
 Package blindtext Warning: lithuanian not defined, using English instead.
-(blindtext)                 on input line 221.
+(blindtext)                 on input line 222.
 
 [5] [6]
 
 Package blindtext Warning: lithuanian not defined, using English instead.
-(blindtext)                 on input line 235.
+(blindtext)                 on input line 236.
 
 [7] [8] [9] (tex/out/main.aux) ) 
 Here is how much of TeX's memory you used:
@@ -338,11 +338,11 @@ Here is how much of TeX's memory you used:
  26021 multiletter control sequences out of 15000+600000
  548598 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,62p,1005b,193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,62p,1005b,193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/
 base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tex/out/main.pdf (15 pages, 227001 bytes).
+Output written on tex/out/main.pdf (15 pages, 226992 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
