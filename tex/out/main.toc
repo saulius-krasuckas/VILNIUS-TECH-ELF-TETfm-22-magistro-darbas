@@ -2,3 +2,4 @@
 \contentsline {section}{Įvadas}{5}{}%
 \contentsline {section}{\numberline {1}Literatūros apžvalga}{6}{}%
 \contentsline {section}{\numberline {2}Teoriniai tyrimai}{7}{}%
+\contentsline {section}{\numberline {3}Eksperimentiniai tyrimai}{10}{}%
