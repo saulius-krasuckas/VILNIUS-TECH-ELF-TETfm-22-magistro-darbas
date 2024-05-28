@@ -52,6 +52,7 @@ herbas: tex/imgs/Herbas.png
 
 tex/imgs/Herbas.png:
 	@ \
+	echo "Herbo parsisiuntimas:"                                 && \
 	cd tex/imgs                                                  && \
 	curl -s ${HERBO}                                                \
 	| awk                                                           \
@@ -66,7 +67,7 @@ tex/imgs/Herbas.png:
 	| xargs curl -O
 
 .PHONY: tex
-tex:
+tex: herbas
 	#pdflatex --halt-on-error
 	@pdflatex --file-line-error --interaction=nonstopmode --output-directory=tex/out tex/main.tex
 	# Via: https://tex.stackexchange.com/questions/159347/pdflatex-cant-find-aux-file/159354#159354
