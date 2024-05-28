@@ -68,6 +68,6 @@ tex/imgs/Herbas.png:
 
 .PHONY: tex
 tex: herbas
-	#pdflatex --halt-on-error
+	@#pdflatex --halt-on-error
 	@pdflatex --file-line-error --interaction=nonstopmode --output-directory=tex/out tex/main.tex
-	# Via: https://tex.stackexchange.com/questions/159347/pdflatex-cant-find-aux-file/159354#159354
+	@# Via: https://tex.stackexchange.com/questions/159347/pdflatex-cant-find-aux-file/159354#159354
