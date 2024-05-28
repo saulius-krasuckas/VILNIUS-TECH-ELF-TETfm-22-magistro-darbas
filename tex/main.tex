@@ -68,9 +68,14 @@
  \titlelabel{\thetitle.\hspace{2mm}}   % dedamas taškas po skyriaus numeriu tekste,
                                        % taip pat sumažinamas tarpelis nuo \quad (1em) iki 2mm
 
- \patchcmd{\tableofcontents}           % nustatome turinio rašymą tik didžiosiomis
+ \patchcmd{\tableofcontents}           % nustatome turinio rašymą:
     {\contentsname}                    %
-    {\MakeUppercase\contentsname}{}{}  % Via: https://tex.stackexchange.com/a/293922
+    {                                  %
+        \centering                     % - su centravimu
+        \MakeUppercase                 % - tik didžiosiomis raidėmis
+        \contentsname                  %
+    }                                  % Via: https://tex.stackexchange.com/a/293922
+    {}{}                               % Via: https://tex.stackexchange.com/a/308207
 
 % ------------------------------------------------------------------------------
 %  DOKUMENTO PRADŽIA
