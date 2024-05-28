@@ -82,3 +82,5 @@ tex: herbas
 	echo                                                          ; \
 	git status --short                                            ; \
 
+count-tex:
+	@texcount -char tex/main.tex
