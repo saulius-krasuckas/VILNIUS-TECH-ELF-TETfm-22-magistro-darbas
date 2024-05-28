@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  28 MAY 2024 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  28 MAY 2024 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -301,17 +301,18 @@ Package pdftex.def Info: tex/imgs/Herbas.png  used on input line 84.
 ]
 
 Package blindtext Warning: lithuanian not defined, using English instead.
-(blindtext)                 on input line 136.
+(blindtext)                 on input line 137.
 
+[2]
 
 Package blindtext Warning: lithuanian not defined, using English instead.
-(blindtext)                 on input line 141.
+(blindtext)                 on input line 145.
 
-[2] [3] [4] (tex/out/main.aux) ) 
+[3] [4] [5] (tex/out/main.aux) ) 
 Here is how much of TeX's memory you used:
  5450 strings out of 476091
  90874 string characters out of 5794081
- 1862330 words of memory out of 5000000
+ 1861330 words of memory out of 5000000
  25680 multiletter control sequences out of 15000+600000
  549118 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -319,10 +320,10 @@ Here is how much of TeX's memory you used:
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/
 base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tex/out/main.pdf (5 pages, 220688 bytes).
+Output written on tex/out/main.pdf (6 pages, 221940 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  34822 words of extra memory for PDF output out of 35830 (max. 10000000)
 
