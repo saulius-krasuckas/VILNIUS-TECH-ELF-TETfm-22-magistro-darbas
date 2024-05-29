@@ -3,6 +3,6 @@
 \contentsline {section}{\numberline {1}LITERATŪROS APŽVALGA}{6}{}%
 \contentsline {section}{\numberline {2}TEORINIAI TYRIMAI}{7}{}%
 \contentsline {section}{\numberline {3}EKSPERIMENTINIAI TYRIMAI}{10}{}%
-\contentsline {section}{\numberline {4}TEORINIŲ IR EKSPERIMENTINIŲ REZULTATŲ PALYGINIMAS}{11}{}%
+\contentsline {section}{\numberline {4}TYRIMŲ REZULTATŲ PALYGINIMAS}{11}{}%
 \contentsline {section}{IŠVADOS IR PASIŪLYMAI}{12}{}%
 \contentsline {section}{LITERATŪROS SĄRAŠAS}{13}{}%
