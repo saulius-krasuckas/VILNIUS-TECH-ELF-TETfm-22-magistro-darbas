@@ -67,6 +67,7 @@
                                        % Via: https://www.overleaf.com/learn/latex/Articles/How_to_change_paragraph_spacing_in_LaTeX#.5Cparindent_.28TeX_primitive.29
  \titlelabel{\thetitle.\hspace{2mm}}   % dedamas taškas po skyriaus numeriu tekste,
                                        % taip pat sumažinamas tarpelis nuo \quad (1em) iki 2mm
+ \renewcommand{\numberline}[1]{#1.~~}  % uždeda tašką po skyriaus numeriu turinyje
 
  \patchcmd{\tableofcontents}           % nustatome turinio rašymą:
     {\contentsname}                    %
