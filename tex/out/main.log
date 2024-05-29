@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  29 MAY 2024 03:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.5.23)  29 MAY 2024 03:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,7 +343,7 @@ Here is how much of TeX's memory you used:
 xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb>
-Output written on tex/out/main.pdf (20 pages, 225949 bytes).
+Output written on tex/out/main.pdf (20 pages, 225917 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

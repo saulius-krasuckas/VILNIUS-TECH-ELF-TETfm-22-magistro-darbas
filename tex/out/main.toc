@@ -6,4 +6,3 @@
 \contentsline {section}{\numberline {4}TEORINIŲ IR EKSPERIMENTINIŲ REZULTATŲ PALYGINIMAS}{11}{}%
 \contentsline {section}{IŠVADOS IR PASIŪLYMAI}{12}{}%
 \contentsline {section}{LITERATŪROS SĄRAŠAS}{13}{}%
-\contentsline {section}{PRIEDAI}{14}{}%
